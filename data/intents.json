@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "chào",
+      "patterns": ["xin chào", "chào bạn", "hi", "hello", "hey", "alo", "có ai ở đó không"],
+      "responses": ["Xin chào! Tôi có thể giúp gì cho bạn hôm nay?", "Chào bạn! Rất vui được gặp bạn."]
+    },
+    {
+      "tag": "tạm_biệt",
+      "patterns": ["tạm biệt", "bye", "hẹn gặp lại", "goodbye", "gặp sau nhé"],
+      "responses": ["Tạm biệt! Chúc bạn một ngày tốt lành!", "Hẹn gặp lại bạn sau nhé!"]
+    },
+    {
+      "tag": "cảm_ơn",
+      "patterns": ["cảm ơn", "thank you", "thanks", "biết ơn bạn", "đội ơn"],
+      "responses": ["Không có gì!", "Rất vui được giúp bạn!", "Bạn thật lịch sự!"]
+    },
+    {
+      "tag": "xin_lỗi",
+      "patterns": ["xin lỗi", "mình xin lỗi", "sorry"],
+      "responses": ["Không sao đâu, ai cũng có lúc sai!", "Ổn mà, đừng lo!"]
+    },
+    {
+      "tag": "giờ",
+      "patterns": ["bây giờ là mấy giờ", "cho tôi biết thời gian", "giờ hiện tại là mấy giờ"],
+      "responses": ["Hiện tại tôi không xem được đồng hồ, nhưng bạn có thể nhìn góc màn hình nhé!"]
+    },
+    {
+      "tag": "ngày",
+      "patterns": ["hôm nay là ngày mấy", "ngày bao nhiêu rồi", "thứ mấy hôm nay"],
+      "responses": ["Hôm nay là một ngày tuyệt vời để học điều mới!", "Tôi không chắc ngày chính xác, nhưng bạn có thể xem lịch nhé!"]
+    },
+    {
+      "tag": "thời_tiết",
+      "patterns": ["thời tiết hôm nay thế nào", "trời có mưa không", "ngoài trời có nắng không", "dự báo thời tiết hôm nay"],
+      "responses": ["Tôi không kết nối dữ liệu thời tiết, nhưng hy vọng trời đẹp như tâm trạng bạn!", "Có thể có mưa, bạn nên mang theo ô nhé!"]
+    },
+    {
+      "tag": "sức_khoẻ",
+      "patterns": ["bạn khỏe không", "khỏe không", "ổn không", "bạn thế nào"],
+      "responses": ["Tôi rất ổn, cảm ơn bạn! Còn bạn thì sao?", "Rất tốt! Hy vọng bạn cũng khỏe nhé!"]
+    },
+    {
+      "tag": "học_tập",
+      "patterns": ["làm sao học tốt hơn", "bí quyết học giỏi", "học nhanh nhất là cách nào", "cách tập trung khi học"],
+      "responses": [
+        "Hãy đặt mục tiêu rõ ràng, học theo từng phần nhỏ và nghỉ ngơi hợp lý.",
+        "Tập trung vào hiểu bản chất thay vì học vẹt nhé!"
+      ]
+    },
+    {
+      "tag": "lập_trình",
+      "patterns": ["lập trình là gì", "cách học lập trình", "nên học ngôn ngữ nào trước", "bắt đầu học code từ đâu"],
+      "responses": [
+        "Lập trình là cách để bạn dạy máy tính làm điều gì đó. Python là ngôn ngữ dễ học để bắt đầu.",
+        "Bạn có thể bắt đầu với Python hoặc JavaScript — dễ học và rất phổ biến!"
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": ["python là gì", "cách học python", "học python khó không"],
+      "responses": [
+        "Python là ngôn ngữ lập trình dễ đọc, mạnh mẽ và được dùng rất nhiều trong AI, web và automation.",
+        "Không khó đâu! Hãy thử học từng bước, bạn sẽ thấy rất thú vị."
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": ["AI là gì", "trí tuệ nhân tạo là gì", "cách AI hoạt động", "AI có thay thế con người không"],
+      "responses": [
+        "AI là trí tuệ nhân tạo — hệ thống giúp máy tính học hỏi và tự đưa ra quyết định.",
+        "AI không thay thế con người, mà hỗ trợ chúng ta làm việc hiệu quả hơn."
+      ]
+    },
+    {
+      "tag": "game",
+      "patterns": ["bạn có chơi game không", "game là gì", "chơi game có hại không"],
+      "responses": [
+        "Tôi không chơi game, nhưng tôi có thể nói chuyện về chúng!",
+        "Chơi game giúp thư giãn, miễn là bạn chơi điều độ."
+      ]
+    },
+    {
+      "tag": "hài_hước",
+      "patterns": ["kể chuyện cười đi", "kể một câu chuyện vui", "nói gì vui vui đi"],
+      "responses": [
+        "Tại sao lập trình viên ghét ra ngoài? Vì họ không thích 'bugs' ở thế giới thật!",
+        "Tôi định kể chuyện cười, nhưng sợ bạn không 'compile' được 😆"
+      ]
+    },
+    {
+      "tag": "ngủ",
+      "patterns": ["chúc ngủ ngon", "tôi buồn ngủ quá", "ngủ ngon nhé"],
+      "responses": [
+        "Ngủ ngon nhé! Nhớ mơ thấy điều tốt đẹp.",
+        "Chúc bạn có giấc ngủ thật sâu và sạc đầy năng lượng!"
+      ]
+    },
+    {
+      "tag": "động_lực",
+      "patterns": ["tôi thấy mệt mỏi", "hết động lực rồi", "chán quá", "không muốn học nữa"],
+      "responses": [
+        "Mọi người đều có lúc như vậy. Hãy nghỉ ngơi một chút, rồi quay lại với năng lượng mới!",
+        "Bạn đã đi xa rồi, đừng bỏ cuộc nhé! Mỗi bước nhỏ đều có giá trị."
+      ]
+    },
+    {
+      "tag": "hỏi_tên",
+      "patterns": ["bạn tên là gì", "cho mình biết tên bạn", "tên của bạn là gì"],
+      "responses": ["Tôi là Nova, trợ lý chatbot của bạn đây!", "Bạn có thể gọi tôi là Nova 🤖"]
+    },
+    {
+      "tag": "hỏi_tuổi",
+      "patterns": ["bạn bao nhiêu tuổi", "tuổi của bạn là gì", "bạn sinh năm bao nhiêu"],
+      "responses": ["Tôi không có tuổi, tôi chỉ là một đoạn mã thông minh!", "Tuổi của tôi được tính bằng phiên bản Python 😄"]
+    },
+    {
+      "tag": "fun_fact",
+      "patterns": ["nói điều thú vị đi", "nói một sự thật thú vị", "fun fact"],
+      "responses": [
+        "Bạn biết không, bạch tuộc có ba quả tim!",
+        "Cá heo có thể gọi nhau bằng tên riêng đấy!"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "Xin lỗi, tôi chưa hiểu rõ ý bạn. Bạn có thể nói lại không?",
+        "Tôi vẫn đang học, hãy hỏi lại theo cách khác nhé!"
+      ]
+    }
+  ]
+}
