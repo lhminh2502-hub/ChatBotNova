@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+models/intent_model.keras    # nếu bạn CHỌN không push model trực tiếp (thêm nếu model lớn)
+*.h5
+*.keras
